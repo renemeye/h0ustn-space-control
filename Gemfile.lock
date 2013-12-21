@@ -25,9 +25,11 @@ GEM
       multi_json (~> 1.3)
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
+    angularjs-rails (1.0.7)
     arel (4.0.0)
     atomic (1.1.10)
     builder (3.1.4)
+    chunky_png (1.2.8)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0.beta, < 5.0)
@@ -35,9 +37,16 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-rails (1.0.3)
+      compass (>= 0.12.2, < 0.14)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    fssm (0.2.10)
     hike (1.2.3)
     i18n (0.6.4)
     jbuilder (1.4.2)
@@ -53,6 +62,7 @@ GEM
     mime-types (1.23)
     minitest (4.7.5)
     multi_json (1.7.7)
+    net-ssh (2.6.8)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -104,6 +114,7 @@ GEM
     uglifier (2.1.2)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    wol (0.4.1)
     zurb-foundation (4.2.3)
       sass (>= 3.2.0)
 
@@ -111,13 +122,17 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  angularjs-rails
   coffee-rails (~> 4.0.0)
+  compass-rails
   jbuilder (~> 1.2)
   jquery-rails
+  net-ssh
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc
   sqlite3
   turbolinks
   uglifier (>= 1.3.0)
+  wol
   zurb-foundation

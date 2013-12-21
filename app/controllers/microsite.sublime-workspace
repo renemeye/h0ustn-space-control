@@ -1,0 +1,1157 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"__",
+				"__"
+			],
+			[
+				"Refer",
+				"References"
+			],
+			[
+				"to_",
+				"to_json"
+			],
+			[
+				"ch",
+				"checkUrl"
+			],
+			[
+				"host",
+				"hostname"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"re",
+				"resource"
+			],
+			[
+				"sa",
+				"satellite"
+			],
+			[
+				"comple",
+				"completed_all_tests"
+			],
+			[
+				"an",
+				"answers_for"
+			],
+			[
+				"que",
+				"questions"
+			],
+			[
+				"en",
+				"enrollments"
+			],
+			[
+				"gre",
+				"gremienwerte"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"Gremi",
+				"Gremium"
+			],
+			[
+				"sto",
+				"stop_fmg_process"
+			],
+			[
+				"star",
+				"start_fmg_process"
+			],
+			[
+				"swit",
+				"switch-z"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"th",
+				"thread"
+			],
+			[
+				"get",
+				"getState"
+			],
+			[
+				"s",
+				"System"
+			],
+			[
+				"start",
+				"start"
+			],
+			[
+				"is",
+				"isRunning"
+			],
+			[
+				"sta",
+				"start_stop_status"
+			],
+			[
+				"log_",
+				"log_history"
+			],
+			[
+				"log",
+				"log_id"
+			],
+			[
+				"Lo",
+				"LoggingView"
+			],
+			[
+				"Tim",
+				"Timestamp"
+			],
+			[
+				"de",
+				"debug_level"
+			],
+			[
+				"co",
+				"concurrent"
+			],
+			[
+				"java",
+				"javax"
+			],
+			[
+				"scro",
+				"scrolledDown"
+			],
+			[
+				"log_id",
+				"last_log_id"
+			],
+			[
+				"last",
+				"lastLogId"
+			],
+			[
+				"cou",
+				"counterOfStartetProcesses"
+			],
+			[
+				"se",
+				"selectAll"
+			],
+			[
+				"v",
+				"ViewBundle"
+			],
+			[
+				"in",
+				"incrementAndGet"
+			],
+			[
+				"Hell",
+				"HelloWorldResource"
+			],
+			[
+				"fea",
+				"FeatureModelReasoner	- es.us.isa.FAMA.Reasoner"
+			],
+			[
+				"Att",
+				"AttributedFeatureModelBuilder"
+			],
+			[
+				"statechan",
+				"normal_state_change"
+			],
+			[
+				"used",
+				"used_back_buttion"
+			],
+			[
+				"act",
+				"activate"
+			],
+			[
+				"new",
+				"newHeader"
+			],
+			[
+				"job",
+				"job_ref"
+			],
+			[
+				"icons",
+				"icon-space"
+			],
+			[
+				"rel",
+				"relative"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<?php\n\nfunction add_ucd_plus_references() {\n	$labels = array(\n		'name'               => _x( 'Reference Logos', 'post type general name' ),\n		'singular_name'      => _x( 'Reference Logo', 'post type singular name' ),\n		'add_new'            => _x( 'Add New', 'reference' ),\n		'add_new_item'       => __( 'Add New Reference Logo' ),\n		'edit_item'          => __( 'Edit Reference Logo' ),\n		'new_item'           => __( 'New Reference Logo' ),\n		'all_items'          => __( 'All Reference Logos' ),\n		'view_item'          => __( 'View Reference Logo' ),\n		'search_items'       => __( 'Search Reference Logos' ),\n		'not_found'          => __( 'No reference logos found' ),\n		'not_found_in_trash' => __( 'No reference logos found in the Trash' ), \n		'parent_item_colon'  => '',\n		'menu_name'          => 'Ref. Logo'\n	);\n	$args = array(\n		'labels'        => $labels,\n		'description'   => 'Small icons for our clients.',\n		'public'        => true,\n		'menu_position' => 5,\n		'supports'      => array( 'title', 'thumbnail', 'image'),\n		'has_archive'   => false,\n	);\n	register_post_type( 'references', $args );	\n}\nadd_action( 'init', 'add_ucd_plus_references' );\nadd_theme_support( 'post-thumbnails', array( 'references' ) );  \n\n?>",
+			"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/external/ucd_plus_content_types.php",
+			"file_size": 1219,
+			"file_write_time": 1374055109000000,
+			"settings":
+			{
+				"buffer_size": 1219,
+				"line_ending": "Unix",
+				"name": "function my_custom_post_product() {"
+			}
+		},
+		{
+			"file": "/Users/meye/Desktop/Arbeit/microsites/Linksammlung.md",
+			"settings":
+			{
+				"buffer_size": 326,
+				"line_ending": "Unix",
+				"name": "Custom Content Type"
+			}
+		},
+		{
+			"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/functions.php",
+			"settings":
+			{
+				"buffer_size": 3451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/parts/index/our-clients.php",
+			"settings":
+			{
+				"buffer_size": 408,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/external/ucd_plus/content_types.php",
+			"settings":
+			{
+				"buffer_size": 77,
+				"line_ending": "Unix",
+				"name": "<?php"
+			}
+		},
+		{
+			"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/external/ucd_plus/footer_texts.php",
+			"settings":
+			{
+				"buffer_size": 1143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/parts/shared/footer.php",
+			"settings":
+			{
+				"buffer_size": 709,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/scss/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 1509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/external/ucd_plus/references.php",
+			"settings":
+			{
+				"buffer_size": 2037,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/rails.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pacakge",
+				"Package Control: Enable Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"maven",
+				"Maven: Run install"
+			],
+			[
+				"eclim",
+				"Subclim: Set Eclim executable path"
+			],
+			[
+				"sub",
+				"Subclim: Set Eclim executable path"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"eclip",
+				"Package Control: List Packages"
+			],
+			[
+				"sort",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"sass",
+				"Set Syntax: SASS"
+			],
+			[
+				"auto",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"to",
+				"Toggle Comment"
+			],
+			[
+				"got",
+				"Toggle Comment"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 142.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/meye/Desktop/Arbeit/microsites/wp-config.php",
+		"/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/external/ucd_plus/references.php",
+		"/Users/meye/Desktop/Arbeit/microsites/wp-content/plugins/post-types-order/include/functions.php",
+		"/Users/meye/Desktop/Netz39/h0ustn/db/migrate/20130714164411_create_computers.rb",
+		"/Users/meye/Desktop/Netz39/h0ustn/app/views/layouts/application.html.erb",
+		"/Users/meye/Desktop/Netz39/h0ustn/Gemfile",
+		"/Users/meye/Desktop/Netz39/h0ustn/app/controllers/wake_on_lan_controller.rb",
+		"/Users/meye/Desktop/Netz39/h0ustn/app/assets/stylesheets/space_radar.css.scss",
+		"/Users/meye/Desktop/Netz39/h0ustn/app/assets/javascripts/space_radar.js.coffee",
+		"/Users/meye/Desktop/Netz39/h0ustn/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/meye/Desktop/Netz39/h0ustn/app/assets/javascripts/application.js",
+		"/Users/meye/Desktop/Netz39/h0ustn/app/views/space_radar/_space.html.erb",
+		"/Users/meye/Desktop/Netz39/h0ustn/config/routes.rb",
+		"/Users/meye/Desktop/Netz39/h0ustn/app/controllers/space_radar_controller.rb",
+		"/Users/meye/Desktop/Netz39/h0ustn/app/views/space_radar/index.html.erb",
+		"/Users/meye/Desktop/Netz39/h0ustn/.gitignore",
+		"/Users/meye/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/app/assets/javascripts/controllers/application_controller.js.coffee",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/app/views/layouts/application.html.erb",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/app/assets/javascripts/templates/application.handlebars",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/app/assets/javascripts/router.js.coffee",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/app/assets/javascripts/space_radar.js.coffee",
+		"/Users/meye/Library/Application Support/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/app/controllers/space_radar_controller.rb",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/app/views/space_radar/index.html.erb",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/Gemfile",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/config/environments/development.rb",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/config/environments/test.rb",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/config/environments/production.rb",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/app/assets/javascripts/templates/space_radar.handlebars",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/app/assets/javascripts/application.js",
+		"/Users/meye/Desktop/Netz39/h0ustn/h0ustn_space_control/config/routes.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/vendor/assets/javascripts/jsMath/easy/load.js",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/controllers/home_controller.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/config/settings.local.yml",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/home/_howto.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/controllers/replies_controller.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/layouts/application.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/controllers/answers_controller.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/admin/answers.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/admin/questions.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/admin/dashboard.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/config/initializers/active_admin.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/admin/transactions.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/admin/posts.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/admin/lectures.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/admin/soirees.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/admin/degree_programs.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/admin/downloads.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/tests/show.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/models/test.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/controllers/questions_controller.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/models/user.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/controllers/tests_controller.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/controllers/users_controller.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/questions/show.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/db/schema.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/helpers/questions_helper.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/tests/index.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/models/course.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/config/routes.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/doc/app/RepliesController.html",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/tests/new.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/models/answer.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/models/question.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/db/migrate/20130712025244_create_tests.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/models/test_result.rb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/users/edit.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/user_mailer/new_email_confirmation_mail.text.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/assets/stylesheets/home.css.scss",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/assets/stylesheets/application.css.scss",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/home/index.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/users/new.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/users/_newform.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/application/_features.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/Gemfile",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/sessions/_login.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/app/views/sessions/new.html.erb",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/config/settings.yml",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/finvorkurs.sublime-project",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/LICENSE",
+		"/Users/meye/Library/Application Support/Sublime Text 2/Packages/User/rails.sublime-build",
+		"/Users/meye/Desktop/Arbeit/finvorkurs/.bundle/config",
+		"/Users/meye/Desktop/KOLONIE/RFC-Multikriterien/GremienOvGU/Stufen-Anforderungen.csv",
+		"/Users/meye/Desktop/KOLONIE/RFC-Multikriterien/GremienOvGU/Blatt 2-Tabelle 1-1.csv",
+		"/Users/meye/Desktop/Arbeit/HiWi-Norbert/verbos-feature-model-generator/src/main/resources/assets/style.css",
+		"/Users/meye/Desktop/Arbeit/HiWi-Norbert/verbos-feature-model-generator/src/main/resources/assets/foundation/js/vendor/custom.modernizr.js",
+		"/Users/meye/Desktop/Arbeit/HiWi-Norbert/verbos-feature-model-generator/src/main/resources/de/ovgu/core/rootview.ftl",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/resources/de/ovgu/core/rootview.ftl",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/core/RootView.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/resources/assets/histogram.js",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/resources/assets/logging.js",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/resources/Log.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/resources/FeatureModelGeneratorProcessController.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/resources/LoggingController.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/core/FeatureModelGeneratorProcessView.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/core/LoggingView.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/fmg/ModelGeneratorProcess.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/HelloWorldService.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/resources/HelloWorldResource.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/resources/assets/index.htm",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/resources/RootResource.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/pom.xml",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/core/rootview.ftl",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/target/classes/de/ovgu/core/rootview.ftl",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/core/Saying.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/health/TemplateHealthCheck.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/Saying.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/hello-world.yml",
+		"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator/src/main/java/de/ovgu/HelloWorldConfiguration.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/PerformanceFeatureModel/src/de/ovgu/cs/performancefeaturemodel/build.sh",
+		"/Users/meye/Documents/hiwi-norbert-betty/PerformanceFeatureModel/src/de/ovgu/cs/performancefeaturemodel/norbert.sublime-project",
+		"/Users/meye/Documents/hiwi-norbert-betty/PerformanceFeatureModel/src/de/ovgu/cs/performancefeaturemodel/GenerateAll.java",
+		"/Users/meye/Documents/hiwi-norbert-betty/PerformanceFeatureModel/build.xml",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/scss/style.scss",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/scss/style_jobs.scss",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/css/responsive.css",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/index.html",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/scss/_ucdplus_reset.scss",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/scss/_ucd_helper.scss",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/scss/_jobs.scss",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/scss/_home_page.scss",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/Todos.md",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/scss/_color_scheme.scss",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/jobs.html",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/scss/_common_page.scss",
+		"/Users/meye/Desktop/Arbeit/ucd_plus/jobs/scss/retina.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/meye/Desktop/Arbeit/finvorkurs",
+			"",
+			"/Users/meye/Desktop/Arbeit/HiWi-Norbert/verbos-feature-model-generator/src/main/java",
+			"/Users/meye/Documents/hiwi-norbert-betty/verbos-feature-model-generator"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ST4_columns_content",
+			"ST4_get_featured_image",
+			"ST4_columns_head",
+			"header",
+			"footer",
+			"reference logo",
+			"Reference Logo",
+			"=>",
+			"ping",
+			" '",
+			",",
+			"visible",
+			"50px",
+			"0px",
+			"rotate",
+			"Rot",
+			"Error",
+			",",
+			"\"\"",
+			"}",
+			"satellite",
+			"entries",
+			"p",
+			"Die einfallslosen",
+			"disabled",
+			"div",
+			"question",
+			"querstion",
+			"course",
+			"course_id",
+			"cours",
+			"current_user",
+			"ROLES",
+			"] ",
+			"authenticate_user",
+			"right",
+			"h1",
+			";",
+			"btn",
+			"Step",
+			"h3",
+			"vorkurse",
+			"bsd",
+			";",
+			"brush",
+			"color",
+			"axis",
+			",",
+			";",
+			"background",
+			"line",
+			"brush",
+			"d3",
+			"brush",
+			"alert",
+			"legend_gremium",
+			"alert",
+			"{",
+			"Gremium",
+			"gremien",
+			"Gremien",
+			"gremien",
+			"flowers",
+			"traits",
+			"gruppe",
+			"species",
+			";",
+			".a",
+			".c",
+			";",
+			"class",
+			";",
+			",",
+			"dsv",
+			"csv",
+			";",
+			"width",
+			"getThread",
+			"Date",
+			"ModelGeneratorProcess",
+			"example",
+			"1.7",
+			"desktop-only",
+			"interessiert",
+			"tab-ti",
+			"after",
+			"used_back_button",
+			"</ol",
+			"<ol",
+			"habla_beta_container_do_not_rely_on_div_classes_or_names",
+			"stripes-header",
+			"open_contactinfo",
+			"display: ",
+			"pinkstrips",
+			"cnt_tit",
+			"hr@",
+			"wrap",
+			"DIN",
+			"light",
+			"wrap",
+			"strips",
+			"greenstrips",
+			"stripes",
+			"		\n",
+			"habla_topbar_div",
+			"div",
+			"section",
+			"box",
+			"DIN"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			",",
+			";"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/external/ucd_plus_content_types.php",
+					"settings":
+					{
+						"buffer_size": 1219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1216,
+								1216
+							]
+						],
+						"settings":
+						{
+							"auto_name": "function my_custom_post_product() {",
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/meye/Desktop/Arbeit/microsites/Linksammlung.md",
+					"settings":
+					{
+						"buffer_size": 326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								97
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Custom Content Type",
+							"is_xml": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/functions.php",
+					"settings":
+					{
+						"buffer_size": 3451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								609,
+								609
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/parts/index/our-clients.php",
+					"settings":
+					{
+						"buffer_size": 408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								71
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/external/ucd_plus/content_types.php",
+					"settings":
+					{
+						"buffer_size": 77,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/external/ucd_plus/footer_texts.php",
+					"settings":
+					{
+						"buffer_size": 1143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/parts/shared/footer.php",
+					"settings":
+					{
+						"buffer_size": 709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/scss/_footer.scss",
+					"settings":
+					{
+						"buffer_size": 1509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								400,
+								400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/sublime-text-haml-sass/SASS/Syntaxes/SASS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/meye/Desktop/Arbeit/microsites/wp-content/themes/ucd_plus_microsites/external/ucd_plus/references.php",
+					"settings":
+					{
+						"buffer_size": 2037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 176.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"cour",
+				"config/routes.rb"
+			],
+			[
+				"space",
+				"app/assets/stylesheets/space_radar.css.scss"
+			],
+			[
+				".css",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"over",
+				"app/assets/stylesheets/foundation_and_overrides.scss"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"apl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"inde",
+				"app/views/space_radar/index.html.erb"
+			],
+			[
+				"index",
+				"app/views/space_radar/index.html.erb"
+			],
+			[
+				"app",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"appli",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"how",
+				"app/views/home/_howto.html.erb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"test_c",
+				"app/controllers/tests_controller.rb"
+			],
+			[
+				"use",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"que",
+				"app/controllers/questions_controller.rb"
+			],
+			[
+				"test",
+				"app/models/test.rb"
+			],
+			[
+				"new",
+				"app/views/tests/new.html.erb"
+			],
+			[
+				"show.html",
+				"app/views/questions/show.html.erb"
+			],
+			[
+				"tests",
+				"app/controllers/tests_controller.rb"
+			],
+			[
+				"rep",
+				"app/controllers/replies_controller.rb"
+			],
+			[
+				"repl",
+				"app/controllers/replies_controller.rb"
+			],
+			[
+				"question/",
+				"app/views/questions/show.html.erb"
+			],
+			[
+				"questip",
+				"app/helpers/questions_helper.rb"
+			],
+			[
+				"testc",
+				"app/controllers/tests_controller.rb"
+			],
+			[
+				"an",
+				"app/models/answer.rb"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"quest",
+				"app/models/question.rb"
+			],
+			[
+				"edit",
+				"app/views/users/edit.html.erb"
+			],
+			[
+				"newfo",
+				"app/views/users/_newform.html.erb"
+			],
+			[
+				"fea",
+				"app/views/application/_features.html.erb"
+			],
+			[
+				"ro",
+				"config/routes.rb"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
+				"sst",
+				".sass-cache/c9125e60ecfba3cc6dbd234d852be7c004fa2409/style.scssc"
+			],
+			[
+				"",
+				"scss/_our_clients.scss"
+			],
+			[
+				"ou",
+				"parts/index/our-clients.php"
+			],
+			[
+				"html",
+				"parts/shared/html-header.php"
+			],
+			[
+				"hel",
+				"scss/_ucd_helper.scss"
+			],
+			[
+				"our",
+				"scss/_our_clients.scss"
+			],
+			[
+				"fir",
+				"parts/index/first-slider.php"
+			],
+			[
+				"fo",
+				"parts/shared/footer.php"
+			],
+			[
+				"st",
+				"style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true
+}

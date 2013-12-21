@@ -1,1 +1,29 @@
-<h1>Space Radar</h1>
+<div class="SpaceRadarCtrl" ng-controller="SpaceRadarCtrl">
+	<form ng-submit="enterCommand()">
+		<input type="text" ng-model="command.name" ng-change="typeCommand()">
+	</form>
+
+	
+	<span ng-repeat="satellite in satellites" class="location round button small"  ng-class="{'success': satellite.status.open, 'alert': !satellite.status.open}" style="top: {{satellite.pos[1]+70}}px; left: {{satellite.pos[0]+33}}px;"></span>
+
+
+	<table class="controllist">
+		<tbody>
+			<tr ng-repeat="satellite in satellites" ng-show="satellite.visible">
+				<td>{{satellite.name}}</td>
+				<td>{{satellite.spaceApi.open}} <span ng-show="satellite.spaceApi.open">An</span></td>
+				<td>
+					<div class="switch small round">
+					  <input id="z-{{satellite.name}}" name="switch-{{satellite.name}}" type="radio" ng-model="satellite.status.open" ng-value="false" ng-change="changeState('{{$index}}')">
+					  <label for="z-{{satellite.name}}">Off</label>
+					
+					  <input id="z1-{{satellite.name}}" name="switch-{{satellite.name}}" type="radio" ng-model="satellite.status.open" ng-value="true" ng-change="changeState('{{$index}}')">
+					  <label for="z1-{{satellite.name}}">On</label>
+					  <span></span>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+		<%=render 'space'%>
+	</table>
+</div>
