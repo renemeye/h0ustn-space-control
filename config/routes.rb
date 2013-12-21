@@ -1,9 +1,15 @@
 H0ustn::Application.routes.draw do
+  resources :computers
+
+  get "wake_on_lan/show"
+  get "wake_on_lan/create"
+  get "wake_on_lan/destroy"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   root 'space_radar#index'
+  resources :computer
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
