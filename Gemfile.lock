@@ -63,6 +63,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.7.7)
     net-ssh (2.6.8)
+    pg (0.17.1)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -128,7 +129,8 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   net-ssh
-  rails (= 4.0.0)
+  pg
+  rails (~> 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc
   sqlite3
